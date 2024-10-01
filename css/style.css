@@ -2,4 +2,111 @@ body {
   margin: 0 auto;
   width: 1440px;
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  background: #fff;
+}
+ul {
+  list-style-type: none;
+}
+.header-logo {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.header-link {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2e2f42;
+}
+.link-header {
+  color: #2e2f42;
+}
+.link {
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.nav-item {
+  font-weight: 500;
+  color: #2e2f42;
+}
+.header-contact {
+  font-weight: 400;
+  color: #434455;
+}
+.link:hover,
+.nav-item:active {
+  color: #404bbf;
+}
+.nav-item:active {
+  text-decoration: underline;
+}
+.main-page {
+  height: 600px;
+  background: #2e2f42;
+}
+.main-page-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07143;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+}
+.main-button {
+  border-radius: 4px;
+  padding: 16px 32px;
+  width: 169px;
+  height: 56px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #4d5ae5;
+}
+.main-button:hover {
+  background: #404bbf;
+}
+.team {
+  background: #f4f4fd;
+}
+.portfolio {
+  width: 1128px;
+  background: E7E9FC;
+}
+.team-title,
+.portfolio-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+.team-title,
+.portfolio-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.card-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.footer {
+  height: 312px;
+  background: #2e2f42;
+}
+.link-footer {
+  color: #f4f4fd;
 }
