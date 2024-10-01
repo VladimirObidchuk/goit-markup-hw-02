@@ -74,8 +74,8 @@ body {
 .main-button:hover {
   background-color: #404bbf;
 }
-.main-button:hover,
-.main-button:focus {
+.nav-item:focus,
+.nav-item:active {
   color: #404bbf;
 }
 .card-title {
@@ -127,7 +127,6 @@ body {
   text-transform: capitalize;
 }
 .footer {
-  height: 312px;
   background-color: #2e2f42;
 }
 .footer-text {
