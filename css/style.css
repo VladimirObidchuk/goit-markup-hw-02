@@ -50,7 +50,6 @@ body {
   font-style: normal;
 }
 .main-page {
-  height: 600px;
   background-color: #2e2f42;
 }
 .main-page-title {
@@ -76,7 +75,7 @@ body {
 }
 .nav-item:focus,
 .nav-item:active {
-  color: #404bbf;
+  background-color: #404bbf;
 }
 .card-title {
   font-weight: 500;
