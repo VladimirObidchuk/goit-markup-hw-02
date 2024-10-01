@@ -1,6 +1,5 @@
 body {
   margin: 0 auto;
-  width: 1440px;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
   background-color: #fff;
@@ -101,8 +100,6 @@ body {
 
 .team-title {
   font-weight: 700;
-  /* font-size: 36px;
-  line-height: 1.11; */
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
@@ -117,8 +114,6 @@ body {
 }
 .portfolio-title {
   font-weight: 700;
-  /* font-size: 36px;
-  line-height: 1.11; */
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
