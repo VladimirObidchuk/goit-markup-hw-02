@@ -29,11 +29,15 @@ body {
   text-transform: uppercase;
 }
 .nav-item {
+  font-weight: 500;
   text-decoration: none;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+}
+.nav-item:hover {
+  color: #404bbf;
 }
 .header-contact {
   font-weight: 400;
@@ -62,10 +66,11 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
-  border-radius: 4px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background-color: #4d5ae5;
   cursor: pointer;
+}
+.main-button:hover {
+  background-color: #404bbf;
 }
 .card-title {
   font-weight: 500;
