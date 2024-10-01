@@ -1,5 +1,4 @@
 body {
-  box-sizing: border-box;
   font-family: "Roboto", sans-serif;
   background-color: #fff;
   color: #434455;
@@ -38,7 +37,8 @@ body {
 .nav-item:hover {
   color: #404bbf;
 }
-.nav-item:active .nav-item:focus {
+.nav-item:focus,
+.nav-item:active {
   color: #404bbf;
 }
 .header-contact {
@@ -74,7 +74,8 @@ body {
 .main-button:hover {
   background-color: #404bbf;
 }
-.main-button:hover .main-button:focus {
+.main-button:hover,
+.main-button:focus {
   color: #404bbf;
 }
 .card-title {
