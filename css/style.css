@@ -46,7 +46,7 @@ ul {
 .link:hover {
   color: #404bbf;
 }
-.nav-item:active {
+.link:active {
   color: #404bbf;
   text-decoration: underline;
 }
@@ -57,12 +57,17 @@ ul {
 .main-page-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
 }
 .main-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
   border-radius: 4px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background-color: #4d5ae5;
@@ -88,7 +93,9 @@ ul {
 .team {
   background-color: #f4f4fd;
 }
-.team-card-title,
+.team-card-title {
+  text-align: center;
+}
 .team-card-text {
   text-align: center;
 }
@@ -103,6 +110,10 @@ ul {
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
+  color: #2e2f42;
+}
+.team-card {
+  background-color: #fff;
 }
 .portfolio-title {
   font-weight: 700;
@@ -111,8 +122,14 @@ ul {
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
+  color: #2e2f42;
 }
-.team-title,
+.team-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
 .portfolio-title {
   font-weight: 500;
   font-size: 20px;
