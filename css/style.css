@@ -3,12 +3,14 @@ body {
   width: 1440px;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
-  background: #fff;
+  background-color: #fff;
+  color: #2e2f42;
 }
 ul {
   list-style-type: none;
 }
 .header-logo {
+  text-decoration: none;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.16667;
@@ -16,16 +18,15 @@ ul {
   text-transform: uppercase;
   color: #4d5ae5;
 }
+.link-header {
+  color: #2e2f42;
+}
 .header-link {
   font-weight: 700;
   font-size: 18px;
   line-height: 1.16667;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
-}
-.link-header {
-  color: #2e2f42;
 }
 .link {
   text-decoration: none;
@@ -35,7 +36,6 @@ ul {
 }
 .nav-item {
   font-weight: 500;
-  color: #2e2f42;
 }
 .header-contact {
   font-weight: 400;
@@ -50,7 +50,7 @@ ul {
 }
 .main-page {
   height: 600px;
-  background: #2e2f42;
+  background-color: #2e2f42;
 }
 .main-page-title {
   font-weight: 700;
@@ -66,29 +66,13 @@ ul {
   width: 169px;
   height: 56px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  background: #4d5ae5;
+  background-color: #4d5ae5;
+  cursor: pointer;
 }
 .main-button:hover {
-  background: #404bbf;
+  background-color: #404bbf;
 }
-.team {
-  background: #f4f4fd;
-}
-.portfolio {
-  width: 1128px;
-  background: E7E9FC;
-}
-.team-title,
-.portfolio-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11111;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #2e2f42;
-}
-.team-title,
-.portfolio-title {
+.card-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -102,10 +86,38 @@ ul {
   letter-spacing: 0.02em;
   color: #434455;
 }
-
+.team {
+  background-color: #f4f4fd;
+}
+.team-card-title,
+.team-card-text {
+  text-align: center;
+}
+.portfolio {
+  width: 1128px;
+  background-color: E7E9FC;
+}
+.team-title,
+.portfolio-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+.team-title,
+.portfolio-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
 .footer {
   height: 312px;
-  background: #2e2f42;
+  background-color: #2e2f42;
+}
+.footer-text {
+  color: #f4f4fd;
 }
 .link-footer {
   color: #f4f4fd;
