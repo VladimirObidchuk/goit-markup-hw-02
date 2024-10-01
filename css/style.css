@@ -86,24 +86,18 @@ body {
   background-color: #f4f4fd;
 }
 .team-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
   letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
 }
 .team-card-title {
   text-align: center;
 }
 .team-card-text {
   text-align: center;
-}
-
-.team-title {
-  font-weight: 700;
-  letter-spacing: 0.02em;
-  text-align: center;
-  text-transform: capitalize;
-  color: #2e2f42;
 }
 .team-card {
   background-color: #fff;
@@ -114,17 +108,11 @@ body {
 }
 .portfolio-title {
   font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
-  text-transform: capitalize;
   color: #2e2f42;
-}
-
-.portfolio-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
 }
 .footer {
   height: 312px;
