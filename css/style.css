@@ -35,11 +35,13 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.nav-item:hover,
-.nav-item:focus {
+.nav-item:focus,
+.nav-item:active,
+.nav-item:hover {
   color: #404bbf;
 }
-.header-contact {
+
+.nav-item:o .header-contact {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
