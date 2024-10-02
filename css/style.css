@@ -40,6 +40,9 @@ body {
 .nav-item:focus {
   color: #404bbf;
 }
+.nav-item:active {
+  color: #404bbf;
+}
 .header-contact {
   font-weight: 400;
   font-size: 16px;
@@ -69,12 +72,13 @@ body {
   background-color: #4d5ae5;
   cursor: pointer;
 }
-.main-button:hover {
-  background-color: #404bbf;
-}
 .nav-item:focus {
   background-color: #404bbf;
 }
+.main-button:hover {
+  background-color: #404bbf;
+}
+
 .card-title {
   font-weight: 500;
   font-size: 20px;
