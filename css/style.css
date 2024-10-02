@@ -72,13 +72,12 @@ body {
   background-color: #4d5ae5;
   cursor: pointer;
 }
-.nav-item:focus {
-  background-color: #404bbf;
-}
 .main-button:hover {
   background-color: #404bbf;
 }
-
+.main-button:focus {
+  background-color: #404bbf;
+}
 .card-title {
   font-weight: 500;
   font-size: 20px;
