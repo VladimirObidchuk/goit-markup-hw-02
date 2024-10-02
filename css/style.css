@@ -34,12 +34,8 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.nav-item:hover {
-  color: #404bbf;
-}
-
-.nav-item:focus,
-.nav-item:active {
+.nav-item:hover,
+.nav-item:focus {
   color: #404bbf;
 }
 .header-contact {
